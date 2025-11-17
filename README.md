@@ -9,7 +9,7 @@ The AI Agent can instantly answer student queries such as:
 
 “What courses does EDUCO offer?”
 
-“What is the GST for Graduation?”
+“What is the GST of Graduation for EDUCO?”
 
 “How much registration fee do I need to pay?”
 
@@ -38,5 +38,6 @@ Handles invalid inputs gracefully
 Apex Invocable Method exposed as an Agent Tool
 
 Agent automatically detects when to call the tool
+
 
 Fully customizable Topics & Instructions

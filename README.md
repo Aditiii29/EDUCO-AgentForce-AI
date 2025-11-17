@@ -25,6 +25,23 @@ Responds to natural-language fee-related queries
 
 Uses Apex-based data instead of Data Cloud (so it works in Dev/Sandbox orgs)
 
+📚 Data Library Integration
+
+This project also uses Salesforce Data Library to provide EDUCO’s static university information.
+
+I uploaded the official EDUCO course PDF to the Data Library, allowing the AgentForce assistant to:
+
+Read and understand EDUCO’s stream names
+
+Access descriptions and structure from the PDF
+
+Combine Data Library knowledge + Apex logic
+
+Respond more accurately to student queries
+
+Apex handles dynamic fee calculations.
+Data Library provides long-form educational content for better grounding.
+
 💰 Fee & GST Retrieval
 
 Returns fixed Registration Fee: ₹1500
@@ -41,3 +58,4 @@ Agent automatically detects when to call the tool
 
 
 Fully customizable Topics & Instructions
+
